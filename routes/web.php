@@ -28,8 +28,24 @@ Route::get('/create', function(){
 
     $user = User::findOrFail(1);
 
-    $post = new Post(['title'=>'My first post', 'body'=>'Edwin is funny']);
+    $post = new Post(['title'=>'My second post', 'body'=>'Edwin is still funny']);
 
     $user->posts()->save($post);
+
+});
+
+Route::get('/read', function (){
+
+    $user = User::findOrFail(1);
+
+//    return $user->posts;
+
+//    dd($user);
+
+    foreach ($user->posts as $post){
+
+        echo $post->title . "<br>";
+
+    }
 
 });
