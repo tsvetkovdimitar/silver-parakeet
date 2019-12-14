@@ -49,3 +49,11 @@ Route::get('/read', function (){
     }
 
 });
+
+Route::get('/update', function(){
+
+    $user = User::find(1);
+
+    $user->posts()->where('id','=',2)->update(['title'=>'Edwin is very funny 2', 'body'=>'Edwin always exaggerates 2']);
+
+});
