@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b029045d-b231-45a3-9a26-4c3b7f41940b" name="onetomany" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="/var/www/html" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
