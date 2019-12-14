@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ce7a83-858f-4661-82d4-9b5c7d26f6c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +141,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/usr/bin/php7.3" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RunManager">
     <configuration name="Onetomany" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/onetomany/public">
@@ -178,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576342998595</updated>
       <workItem from="1576342999655" duration="1619000" />
-      <workItem from="1576344635791" duration="1435000" />
+      <workItem from="1576344635791" duration="5275000" />
     </task>
     <servers />
   </component>
@@ -194,10 +192,10 @@
       <screen x="0" y="27" width="2560" height="1332" />
     </state>
     <state x="963" y="341" width="624" height="702" key="FileChooserDialogImpl/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1576343693951" />
-    <state x="522" y="153" key="SettingsEditor" timestamp="1576343842816">
+    <state x="522" y="153" key="SettingsEditor" timestamp="1576350521046">
       <screen x="0" y="27" width="2560" height="1332" />
     </state>
-    <state x="522" y="153" key="SettingsEditor/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1576343842816" />
+    <state x="522" y="153" key="SettingsEditor/0.27.2560.1332/2560.546.1360.768@0.27.2560.1332" timestamp="1576350521046" />
     <state x="1010" y="513" width="529" height="357" key="webDeployment.PermissionsDialog" timestamp="1576343831625">
       <screen x="0" y="27" width="2560" height="1332" />
     </state>

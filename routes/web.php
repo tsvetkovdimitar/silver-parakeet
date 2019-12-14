@@ -11,12 +11,25 @@
 |
 */
 
+use App\Post;
+use App\User;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/test', function (){
 
-    echo "Test";
+    echo "Test test test";
+
+});
+
+Route::get('/create', function(){
+
+    $user = User::findOrFail(1);
+
+    $post = new Post(['title'=>'My first post', 'body'=>'Edwin is funny']);
+
+    $user->posts()->save($post);
 
 });
